@@ -28,22 +28,11 @@
 
 // console.log(sumar(2))
 
-const user = {
-    x : 20,
-    name: 'Ryan',
-    lastname: 'perez',
-    age: '30',
-    adress: {
-        country: 'argentina',
-        city: 'chivilcoy',
-        street: 'yeca 34',
-    },
-    friends: ['brand', 'elena'],
-    active: true,
-    // x = key // 20 = value 
-    sendMail: function(){
-        return 'sending email...'
-    }
+const name = 'laptop'
+const price = 3000
+
+const newProduct = {
+    name, price
 }
 
-console.log(user)
+console.log(newProduct.name)
