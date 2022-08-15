@@ -41,11 +41,15 @@ const autos = {
     ruedas: 'hola mundo desde js'
 }
 const title = document.createElement('h1')
-title.innerText = autos.ruedas
+title.innerText = 'yo soy js'
+
 const button = document.createElement('button')
 button.innerText = 'click'
-button.addEventListener('click', function(){
-    console.log('hola mundo')
+
+button.addEventListener('click', function () {
+    title.innerText = 'Cambiado desde js'
+    alert('se realizo un click')
+
 })
 document.body.append(title)
 document.body.append(button)
