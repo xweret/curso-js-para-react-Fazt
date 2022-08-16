@@ -107,22 +107,47 @@
 // console.log(showObjet())
 
 
-const isAuthorized = false 
+// const isAuthorized = false 
 
-const button = document.createElement('button')
-button.innerText = 'click me gato'
-
-// console.log(showBolean())
+// const background = 'yellow'
+// const color = 'white'
 
 
+// const button = document.createElement('button')
+// button.innerText = 'click me gato'
+// button.style = `background: ${isAuthorized ? 'blue' : 'red'}; color: ${color}`
 
-button.addEventListener('click', () => { 
-    if (isAuthorized) {
+// // console.log(showBolean())
 
-    return  alert('autorizao');
+
+
+// button.addEventListener('click', () => { 
+//     if (isAuthorized) {
+
+//     return  alert('autorizao');
+//     }
+//         alert('notclicked');
+//     });
+
+// document.body.append(button)
+
+const names = ['ryan', 'joe', 'nancy']
+
+const newNames = names.find(function (name) {
+    if( name === 'marcos') {
+        return name
     }
-        alert('notclicked');
-    });
+})
+console.log(newNames)
+console.log(names)
 
-document.body.append(button)
+// for (let i = 0; i < names.length; i++) {
+//     const element = names[i];
+//     console.log(element)
+
+// }
+
+// names.map(function (name){
+//     console.log(name)
+// })
 
