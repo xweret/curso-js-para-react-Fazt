@@ -131,23 +131,54 @@
 
 // document.body.append(button)
 
-const names = ['ryan', 'joe', 'nancy']
+// const names = ['ryan', 'joe', 'nancy', 'joel']
 
-const newNames = names.find(function (name) {
-    if( name === 'marcos') {
-        return name
-    }
-})
-console.log(newNames)
-console.log(names)
-
-// for (let i = 0; i < names.length; i++) {
-//     const element = names[i];
-//     console.log(element)
-
-// }
-
-// names.map(function (name){
-//     console.log(name)
+// const newNames = names.filter(function (name) {
+//     if(name !== 'joe'){
+//         return name
+//     }
 // })
+// console.log(newNames)
+// console.log(names)
 
+// // for (let i = 0; i < names.length; i++) {
+// //     const element = names[i];
+// //     console.log(element)
+
+// // }
+
+// // names.map(function (name){
+// //     console.log(name)
+// // })
+
+// const names = ['ryan', 'joe', 'maria']
+// const newNames = ['marcos', 'mario', 'jhon']
+
+// console.log(names)
+// console.log(newNames)
+// console.log(names.concat(newNames))
+// // nuevo arreglo convinando ambos valores
+
+//spread operator 
+
+
+// const names = ['ryan', 'joe', 'maria']
+// const newNames = ['marcos', 'mario', 'jhon']
+
+// console.log([...names, ...newNames])
+
+const user = {
+    name: 'Gabriel',
+    lastname: 'San',
+}
+
+const adress= {
+    street: 'fakestreet',
+    city: 'bogota'
+}
+
+userInfo = {
+    ...user,
+    ...adress
+}
+console.log(userInfo)
