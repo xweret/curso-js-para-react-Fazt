@@ -1,4 +1,8 @@
 
+// import {add, multiply, active} from './add.js'
+// import multiplyModule from './add.js'
+// console.log(multiplyModule)
+
 // function hello(){
 //     username = prompt('username por favor')
 //     console.log('hola' + username)
@@ -167,18 +171,28 @@
 
 // console.log([...names, ...newNames])
 
-const user = {
-    name: 'Gabriel',
-    lastname: 'San',
-}
+// const user = {
+//     name: 'Gabriel',
+//     lastname: 'San',
+// }
 
-const adress= {
-    street: 'fakestreet',
-    city: 'bogota'
-}
+// const adress= {
+//     street: 'fakestreet',
+//     city: 'bogota'
+// }
 
-userInfo = {
-    ...user,
-    ...adress
-}
-console.log(userInfo)
+// userInfo = {
+//     ...user,
+//     ...adress
+// }
+// console.log(userInfo)
+
+// const person = {
+//     name: 'ryan',
+//     adress: {
+//         city: 'london',
+//         street: 'baker street'
+//     },
+//     location: {}
+// }
+// console.log(person.location?.city)
